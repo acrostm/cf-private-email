@@ -1,0 +1,11 @@
+name = "privacy-alias-email"
+main = "src/worker.ts"
+compatibility_date = "2026-06-18"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "privacy_alias_email"
+database_id = "00000000-0000-0000-0000-000000000000"
+
+[vars]
+DEFAULT_FORWARD_TO = ""
